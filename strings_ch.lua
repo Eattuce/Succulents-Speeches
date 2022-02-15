@@ -44,7 +44,7 @@ STRINGS.CHARACTERS.WANDA.DESCRIBE.[物品名称] = ""
 ]]
 
 
-
+--[[以每种物品的威尔逊描述为例，“”内是缺失的台词]]
 
 -- 农场
 STRINGS.NAMES.SUCCULENT_FARM = "多肉农场" -- 名称
@@ -53,23 +53,253 @@ STRINGS.RECIPE_DESC.SUCCULENT_FARM = "还有这种农场?" -- 建造栏描述
 -- 农场状态
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUCCULENT_FARM =
 {
-    -- 阶段4
-    STUFFED = "如果不是花盆的限制它们可能会更多",
-    -- 阶段3
-    LOTS = "挤满了花盆",
-    -- 阶段1\2
-    SOME = "这是个好的趋势",
-    -- 空
-    EMPTY = "可以种点多肉",
-    -- 烧毁
-    BURNT = "大火带走了一切",
-    -- 正常检查
-    GENERIC = "种点多肉植物吧",
+    --[[阶段4]]     STUFFED = "如果不是花盆的限制它们可能会更多",
+    --[[阶段3]]     LOTS = "挤满了花盆",
+    --[[阶段1\2]]   SOME = "这是个好的趋势",
+    --[[空]]        EMPTY = "可以种点多肉",
+    --[[烧毁]]      BURNT = "大火带走了一切",
+    --[[正常检查]]  GENERIC = "种点多肉植物吧",
 }
--- 满肥料
-STRINGS.CHARACTERS.GENERIC.ACTIONFAIL.GIVE.NONEEDFERTILIZE = "暂时不需要施肥"
--- 试图栽种不是多肉
-STRINGS.CHARACTERS.GENERIC.ACTIONFAIL.GIVE.MUSTBESUCCULENT = "这里面可种不了这个"
+-- 通用(威尔逊)
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 薇洛
+STRINGS.CHARACTERS.WILLOW.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃尔夫冈
+STRINGS.CHARACTERS.WOLFGANG.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 温蒂
+STRINGS.CHARACTERS.WENDY.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- WX78
+STRINGS.CHARACTERS.WX78.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 维克巴顿
+STRINGS.CHARACTERS.WICKERBOTTOM.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 伍迪
+STRINGS.CHARACTERS.WOODIE.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 麦斯威尔
+STRINGS.CHARACTERS.WAXWELL.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 薇格弗德
+STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 韦伯
+STRINGS.CHARACTERS.WEBBER.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 维诺娜
+STRINGS.CHARACTERS.WINONA.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃利
+STRINGS.CHARACTERS.WARLY.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃拓克斯
+STRINGS.CHARACTERS.WORTOX.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃姆伍德
+STRINGS.CHARACTERS.WORMWOOD.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃特
+STRINGS.CHARACTERS.WURT.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 沃尔特
+STRINGS.CHARACTERS.WALTER.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+-- 旺达
+STRINGS.CHARACTERS.WANDA.DESCRIBE.SUCCULENT_FARM =
+{
+    STUFFED = "",
+    LOTS = "",
+    SOME = "",
+    EMPTY = "",
+    BURNT = "",
+    GENERIC = "",
+}
+--------------------------------------------------------------------------
+-- 通用(威尔逊)
+STRINGS.CHARACTERS.GENERIC.ACTIONFAIL.GIVE = {
+    --[[满肥料]]            NONEEDFERTILIZE = "暂时不需要施肥",
+    --[[试图栽种不是多肉]]  MUSTBESUCCULENT = "这里面可种不了这个",}
+-- 薇洛
+STRINGS.CHARACTERS.WILLOW.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃尔夫冈
+STRINGS.CHARACTERS.WOLFGANG.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 温蒂
+STRINGS.CHARACTERS.WENDY.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- WX78
+STRINGS.CHARACTERS.WX78.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 维克巴顿
+STRINGS.CHARACTERS.WICKERBOTTOM.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 伍迪
+STRINGS.CHARACTERS.WOODIE.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 麦斯威尔
+STRINGS.CHARACTERS.WAXWELL.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 薇格弗德
+STRINGS.CHARACTERS.WATHGRITHR.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 韦伯
+STRINGS.CHARACTERS.WEBBER.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 维诺娜
+STRINGS.CHARACTERS.WINONA.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃利
+STRINGS.CHARACTERS.WARLY.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃拓克斯
+STRINGS.CHARACTERS.WORTOX.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃姆伍德
+STRINGS.CHARACTERS.WORMWOOD.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃特
+STRINGS.CHARACTERS.WURT.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 沃尔特
+STRINGS.CHARACTERS.WALTER.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+-- 旺达
+STRINGS.CHARACTERS.WANDA.ACTIONFAIL.GIVE = {
+    NONEEDFERTILIZE = "",
+    MUSTBESUCCULENT = "",}
+
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 -- 大型多肉盆栽
